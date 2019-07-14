@@ -2,7 +2,7 @@ name: feedback_widget
 description: A new Flutter package project for feedback view.
 version: 0.0.1
 author: TakeoffAndroid<takeoffandroid@gmail.com>
-homepage:
+homepage: https://github.com/TakeoffAndroid/FeedbackWidget
 
 environment:
   sdk: ">=1.19.0 <3.0.0"
