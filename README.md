@@ -2,6 +2,43 @@
 
 A new Flutter package project for feedback view.
 
+## How to use?
+
+### Default
+<a href="https://imgur.com/SC3x5hB"><img src="https://i.imgur.com/SC3x5hB.png" title="source: imgur.com" /></a>
+
+```dart
+FeedbackView(listener: (Status status) {},);
+```
+
+### Custom Size and Padding
+<a href="https://imgur.com/WiMtMW5"><img src="https://i.imgur.com/WiMtMW5.png" title="source: imgur.com" /></a>
+
+```dart
+FeedbackView(
+    iconSize: 48,
+    iconPadding: EdgeInsets.all(16),
+    listener: (Status status) {},
+);
+```
+
+### Custom Icon and Text
+<a href="https://imgur.com/KObD4Y5"><img src="https://i.imgur.com/KObD4Y5.png" title="source: imgur.com" /></a>
+
+```dart
+FeedbackView(
+    iconSize: 48,
+    iconPadding: EdgeInsets.all(16),
+    listener: (Status status) {},
+    negativeIcon: Icons.flight_takeoff,
+    neutralIcon: Icons.flight,
+    positiveIcon: Icons.flight_land,
+    negativeText: 'Take off',
+    neutralText: 'Stable',
+    positiveText: 'Landing',
+    defaultText: 'Flight Status',
+);
+```
 ## Use this package as a library
 
 1. Depend on it
