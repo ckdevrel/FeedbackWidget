@@ -1,3 +1,3 @@
-## [0.0.4] - 15/07/2019-12:09AM.
+## [0.0.5] - 15/07/2019-12:09AM.
 
-* Removed unnecessary constructor passing.
+* Fixes optional values for states.
