@@ -16,8 +16,7 @@ class FeedbackView extends StatefulWidget {
     this.iconPadding, this.iconSize, @required this.listener});
 
   @override
-  _FeedbackViewState createState() => new _FeedbackViewState(negativeIcon, neutralIcon, positiveIcon,
-      negativeText, neutralText, positiveText, defaultText, iconPadding, iconSize, listener);
+  _FeedbackViewState createState() => new _FeedbackViewState();
 }
 
 class _FeedbackViewState extends State<FeedbackView> {
@@ -28,9 +27,6 @@ class _FeedbackViewState extends State<FeedbackView> {
   EdgeInsetsGeometry iconPadding;
   double iconSize;
   IconCallback listener;
-
-  _FeedbackViewState([this.negativeIcon, this.neutralIcon, this.positiveIcon,
-    this.negativeText, this.neutralText, this.positiveText, this.defaultText, this.iconPadding, this.iconSize, this.listener]);
 
   @override
   void initState(){
