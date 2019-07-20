@@ -45,7 +45,7 @@ FeedbackView(
 Add this to your package's pubspec.yaml file:
 ```dart
 dependencies:
-  feedback_widget: ^0.0.5
+  feedback_widget: ^0.0.6
 ```
 
 2. Install it

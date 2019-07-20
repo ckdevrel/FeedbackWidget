@@ -39,6 +39,7 @@ class _FeedbackViewState extends State<FeedbackView> {
     defaultText  = widget.defaultText  ?? "Rate Me!";
     iconPadding  = widget.iconPadding  ?? EdgeInsets.all(0);
     iconSize     = widget.iconSize     ?? 24.0;
+    listener     = widget.listener     ?? null;
     super.initState();
   }
 
