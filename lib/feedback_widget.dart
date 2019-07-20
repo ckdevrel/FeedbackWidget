@@ -30,15 +30,15 @@ class _FeedbackViewState extends State<FeedbackView> {
 
   @override
   void initState(){
-    negativeIcon ??= Icons.thumb_down;
-    positiveIcon ??= Icons.thumb_up;
-    neutralIcon ??= Icons.thumbs_up_down;
-    neutralText ??= "Average";
-    positiveText ??= "Good";
-    negativeText ??= "Bad";
-    defaultText ??= "Rate Me!";
-    iconPadding ??= EdgeInsets.all(0);
-    iconSize ??= 24.0;
+    negativeIcon = widget.negativeIcon ?? Icons.thumb_down;
+    positiveIcon = widget.positiveIcon ?? Icons.thumb_up;
+    neutralIcon  = widget.neutralIcon  ?? Icons.thumbs_up_down;
+    neutralText  = widget.neutralText  ?? "Average";
+    positiveText = widget.positiveText ?? "Good";
+    negativeText = widget.negativeText ?? "Bad";
+    defaultText  = widget.defaultText  ?? "Rate Me!";
+    iconPadding  = widget.iconPadding  ?? EdgeInsets.all(0);
+    iconSize     = widget.iconSize     ?? 24.0;
     super.initState();
   }
 
